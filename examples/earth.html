@@ -4,26 +4,30 @@
 	<meta charset="utf-8">
 	<title>Earth - Our planet </title>
 	<style type="text/css">
-		h2 {
-			color: red;
-			text-align: center;
+		* {
+			box-sizing: border-box;
 		}
-		/*style all elements with class highlight as follows */
-		.highlight {
-			font-size: 20px;
-			font-weight: bold;
-			font-style: italic;
+		body{
+			color : black;
 			background-color: grey;
-			opacity: .6;
+			text-align: left;
 		}
-		/*style element with id as follows*/
-		#addendum {
-			color: grey;
+		h2 {
+			color: darkgrey;
 			text-align: center;
 		}
-		p, div, h1 {
-			text-align: center;
+		div{
+			width: 50%;
+			padding = 20px; 
 		}
+		#section1{
+			float:left;
+		}
+		#section2{
+			float: left;
+		}
+
+
 	</style>
 </head>
 <body>
@@ -31,22 +35,25 @@
 		We are the World
 	</header>
 	<h1>Life on Earth</h1>
+	<div id="section1">
 	<h2>Types of Life on Earth</h2>
 	<ul>
-		<li>Animals</li>
+		<li>Animals
+			<article><p>Animals can move around they are cool. Some of my favourite animals are elephants, ants and dolphins. Monkeys make me a little nervous. </p><p class=highlight>They are too smart for their own good. </p><p>They are like scary toddlers with sharp teeth. Nobody needs that up close. Nobody. Just swing in the faraway trees you lot. </p></article></li>
 		<li>Plants</li>
 		<li>Other Micro-orgranisms</li>
 	</ul>
+	</div>
+	<div id="section2">
 	<h2>Addtional Information</h2>
-	<section>
-		<div>If you would like to know more about these life types please go to:
+		<p>If you would like to know more about these life types please go to:
 		<a href="http://www.google.com" 
 		target="_blank" title="Link to Google"
 		>Google Search Engine	
 		</a>
-		</div>
-		<div class=highlight> I have made sure this link opens in new window so you don't accidentally leave my website. </div>
-		<div id=addendum>At some point I will add details of these sections on this page so you can click on them and navigate to that part of the page using id elements(fragment identifiers. These are popular in Single Page Applications (SPA) the boring websites that hop up and down instead of having multiple pages. </div>
-	</section>
+		</p>
+		<p class=highlight> I have made sure this link opens in new window so you don't accidentally leave my website. </div>
+		<p id=addendum>At some point I will add details of these sections on this page so you can click on them and navigate to that part of the page using id elements(fragment identifiers. These are popular in Single Page Applications (SPA) the boring websites that hop up and down instead of having multiple pages. </p>
+	</div>
 </body>
 </html>
