@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mars</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin :0;
+			padding: 0;
+			background: url('images/mars.jpg') no-repeat right center blue;
+		}
+		header li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none; /*removes underline for standard link*/
+			background-color: lightblue; 
+			border: 1px solid blue;
+			color: black;
+			display: block; /*a elements is both span and block, force it to block*/
+			width: 200px;
+			text-align: center;
+			margin-bottom: 3px; 
+		}
+		a:hover, a:active {
+			background-color: red;
+			color: purple;
+		}
+		header li:nth-child(3){
+			color: green;
+		}
+		#box {
+			background-color: lightgreen;
+			padding: 10px; 
+			border: 5px solid black;
+			margin: 40px; 
+			width: 200px;
+		}
+		section div:nth-child(odd) {
+			background-color: grey;
+		}
+		section div:nth-child(4):hover{
+			background-color: green;
+			cursor: pointer;
+
+		}
+
+	</style>
+</head>
+<body>
+<h1>The Red Planet</h1>
+We will use this page for info about Mars. 
+<header>
+	<ul>
+		<li><a href="https://google.com/search?q=mars+missions">Missions</a></li>
+		<li><a href="https://google.com/search?q=mars+moons">Moons</a></li>
+		<li><a href="https://google.com/search?q=mars+life">Life on Mars</a></li>
+		<li><a href="https://google.com/search?q=mars+colonize">Colonizing Mars</a></li>
+	</ul>
+</header>
+<section id = "box">
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div> LITTLE GREEN MEN! </div>
+	<div class="dramatic"> LITTLE GREEN MEN! </div>
+</section>
+</body>
+</html>
